@@ -28,7 +28,7 @@ This project demonstrates a basic full stack application using Express for the b
 
    ```
    cd api
-   npm run generate-secret
+   npm run generate-jwt-secret
    ```
 
    Copy and paste this in the .env file explain below.
