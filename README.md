@@ -11,6 +11,7 @@ This project demonstrates a basic full stack application using Express for the b
 - Node.js and npm
 - A database (PostgreSQL)
 - Basic understanding of Express, React, and JWT
+- Docker (to launch compose.yaml)
 
 **Getting Started**
 
@@ -43,7 +44,9 @@ This project demonstrates a basic full stack application using Express for the b
    cd ..
    ```
 
-5. **Run the development server:**
+5. **Launch Database using Docker:** A docker compose file has been provided that you can run either via the VS Code extension or CLI.
+
+6. **Run the development server:**
    ```bash
    npm run dev
    ```
