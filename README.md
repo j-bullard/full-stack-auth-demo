@@ -24,7 +24,16 @@ This project demonstrates a basic full stack application using Express for the b
    cd full-stack-auth-demo
    npm install
    ```
-3. **Set up environment variables:**
+3. **Generate JWT Secret:** A script has been provided that will generate the secret for you.
+
+   ```
+   cd api
+   npm run generate-secret
+   ```
+
+   Copy and paste this in the .env file explain below.
+
+4. **Set up environment variables:**
    Create a `.env` file in the root directory of the project and add the following variables:
 
    ```
@@ -38,15 +47,15 @@ This project demonstrates a basic full stack application using Express for the b
    JWT_SECRET=your_secret_key
    ```
 
-4. **Go back to root directory**
+5. **Go back to root directory**
 
    ```
    cd ..
    ```
 
-5. **Launch Database using Docker:** A docker compose file has been provided that you can run either via the VS Code extension or CLI.
+6. **Launch Database using Docker:** A docker compose file has been provided that you can run either via the VS Code extension or CLI.
 
-6. **Run the development server:**
+7. **Run the development server:**
    ```bash
    npm run dev
    ```
